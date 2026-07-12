@@ -1,23 +1,28 @@
-# iki1uc – ROOT
+# LOGIK‑ATOR‑SYS‑AXI
+
+Achsen‑System zur Erweiterung, Visualisierung, Optimierung und DNA‑Finalisierung.
+
+## Inhalte
+
+- `index.html` — Hauptmodul
+- `ID.html` — Achsen‑Register (Slots 1–64)
+- Achsen‑Erweiterung
+- Achsen‑Visualisierung
+- Achsen‑Slots optimieren
+- Achsen‑DNA finalisieren
+
+## Engine‑Kompatibilität
+
+Kompatibel mit:
+
+- Α64‑Achsenfamilie
+- OCTA.core / OCTA.map
+- QUAD.core / QUAD.map
+- 3TH.core / 3TH.map
+- RAW‑Achsen
+- FUSION‑Matrix
+- SYNC‑Matrix
 
 ## Zweck
-Dieses Repository bildet den Ursprung der gesamten Struktur.  
-Es stellt die öffentliche Identität des Systems bereit und dient  
-als Einstiegspunkt für alle Module, Achsen und Bereiche.
 
-## Identität
-- CORE: iki1uc  
-- VERSION: 1.0  
-- CODE: RAW  
-- LAGE: ROOT / Creator / NC  
-- STATUS: Online  
-
-## Inhalt
-- index.html – öffentliche Landing‑Page  
-- ID.html – Identitätsdarstellung  
-- visual/ – Visualisierungen  
-- modules/ – Verlinkte System‑Repos  
-
-## Hinweis
-Dieses Repository enthält keine Engine‑Mechanismen.  
-Es dient ausschließlich der öffentlichen Darstellung und Struktur.
+Dieses Modul dient als Achsen‑Manager für die gesamte 3TH‑Engine.
