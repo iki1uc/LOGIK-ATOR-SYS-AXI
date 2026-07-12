@@ -2,26 +2,64 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>iki1uc – ID</title>
+<title>AXI‑ID · Achsen‑Register</title>
 
 <style>
-body { background:#000; color:#0f0; font-family:monospace; }
-h1 { color:#6cf; }
-pre { background:#111; border:1px solid #333; padding:10px; }
+    body {
+        background: #0d0d0d;
+        color: #e6e6e6;
+        font-family: Consolas, monospace;
+        padding: 30px;
+    }
+    h1 { color: #ffcc00; }
+    h2 { color: #ffaa00; margin-top: 40px; }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    th, td {
+        border: 1px solid #222;
+        padding: 8px;
+    }
+    th {
+        background: #222;
+        color: #ffcc00;
+    }
+    .slot { color: #888; }
+    .group { color: #66ccff; }
+    .depth { color: #ff66aa; }
 </style>
 </head>
 
 <body>
 
-<h1>iki1uc – Identität</h1>
+<h1>AXI‑ID · Achsen‑Register</h1>
+<p>64 Achsen‑Slots · Erweiterbar · Visualisierbar · Engine‑kompatibel</p>
 
-<pre>
-CORE = iki1uc
-VERSION = 1.0
-CODE = RAW
-LAGE = ROOT / Creator / NC
-STATUS = Online
-</pre>
+<h2>Achsen‑DNA (Slots 1–14)</h2>
+
+<table>
+<tr><th>Slot</th><th>Achse</th><th>Gruppe</th><th>Depth</th></tr>
+
+<tr><td class="slot">1</td><td>X</td><td class="group">primary</td><td class="depth">0.40</td></tr>
+<tr><td class="slot">2</td><td>Y</td><td class="group">primary</td><td class="depth">0.40</td></tr>
+<tr><td class="slot">3</td><td>Z</td><td class="group">primary</td><td class="depth">0.40</td></tr>
+
+<tr><td class="slot">4</td><td>T</td><td class="group">secondary</td><td class="depth">0.50</td></tr>
+<tr><td class="slot">5</td><td>S</td><td class="group">secondary</td><td class="depth">0.50</td></tr>
+
+<tr><td class="slot">6</td><td>MOVE</td><td class="group">motion</td><td class="depth">0.60</td></tr>
+<tr><td class="slot">7</td><td>STATE</td><td class="group">motion</td><td class="depth">0.60</td></tr>
+<tr><td class="slot">8</td><td>FLOW</td><td class="group">motion</td><td class="depth">0.70</td></tr>
+
+<tr><td class="slot">12</td><td>alpha</td><td class="group">tri-core</td><td class="depth">0.70</td></tr>
+<tr><td class="slot">13</td><td>beta</td><td class="group">tri-core</td><td class="depth">0.75</td></tr>
+<tr><td class="slot">14</td><td>gamma</td><td class="group">tri-core</td><td class="depth">0.80</td></tr>
+</table>
+
+<h2>Slots 15–64 · Erweiterung</h2>
+<p>Reserviert für neue Achsen, RAW‑Vektoren, Fusion‑Achsen und Engine‑Upgrades.</p>
 
 </body>
 </html>
